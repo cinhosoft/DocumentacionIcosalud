@@ -1,4 +1,4 @@
-# Welcome to Writage!
+# Bienvenido a ICOSALUD
 
 Writage is a plugin for Microsoft Word, which enables you to create and edit
 Markdown files (with .md extension) in convenient visual interface. It can also
@@ -74,9 +74,11 @@ add more columns or rows. Here is a sample table.
 | Images       | Yes                  |
 | Tables       | Yes                  |
 
-## Image
+## 
 
-![](media/d5441aef8e77c41b0e5e2cd891543fc7.jpg)
+## Foto
+
+![](media/11beab043d09dd853bbe6ed874682853.png)
 
 # Happy writing!
 

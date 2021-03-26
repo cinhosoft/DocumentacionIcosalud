@@ -265,6 +265,40 @@ el Idioma Español (Spanish) y se da click en Terminar.
 
 ![](media/40593f3a4375197ff1b91e32483bab97.png)
 
+Una vez terminado este proceso tenemos configuradas las tres herramientas y
+debemos preocuparnos por elegir un editor de texto para crear nuestra
+documentación, el lenguaje de marcado en el cual vamos a escribir el mkdocs y a
+continuación vamos a ver como se ve un archivo .md.
+
+El archivo que vamos a mostrar es este mismo el cual esta siendo creado, desde
+Microsoft Word con la ayuda de un complemento llamado writage en su versión 2.6,
+complemento el cual es licenciado.
+
+Así se ve el archivo editado desde Word:
+
+![](media/69f576707917b5787438a0474898982a.png)
+
+Así se ve el archivo si lo editamos con Notepad ++ o cualquier editor de código
+conocido (Visual Studio Code, Athom, Sublime):
+
+![](media/88af3df2c7d8a65af76eb9c19b33c1da.png)
+
+Podemos ver que las imágenes las inserta con el siguiente comando, indicando
+entre paréntesis la ruta de la imagen la cual esta en un directorio media y
+tienen un nombre único que le ha asignado el complemento writege.
+
+![]: (media/6b54c49b9db0387418e449d9b5552399.png)
+
+Como podemos ver en Word es más sencillo editar la documentación, pero nos
+encontramos con dos desventajas.
+
+1.  El completo writege necesita una licencia, la cual está alrededor de los
+    $134.000 COP.
+
+2.  Se debe tener mucho cuidado al momento de utilizar las opciones de copiado y
+    pegado de Word porque existen comandos de Office que no entiende el
+    complemento y esto ocasiona errores en la compilación, por ejemplo:
+
 In order to apply code block style from Word a “Source Code” style should be
 created first.
 

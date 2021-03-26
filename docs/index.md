@@ -293,11 +293,16 @@ Como podemos ver en Word es más sencillo editar la documentación, pero nos
 encontramos con dos desventajas.
 
 1.  El completo writege necesita una licencia, la cual está alrededor de los
-    $134.000 COP.
+    \$134.000 COP.
 
 2.  Se debe tener mucho cuidado al momento de utilizar las opciones de copiado y
     pegado de Word porque existen comandos de Office que no entiende el
     complemento y esto ocasiona errores en la compilación, por ejemplo:
+
+Copiar y pegar texto e imágenes
+
+Puedes copiar y pegar texto e imágenes de un archivo a otro, incluso si son de
+diferentes tipos.
 
 In order to apply code block style from Word a “Source Code” style should be
 created first.

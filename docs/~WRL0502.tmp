@@ -29,45 +29,27 @@ si ya los tiene instalados desde la línea de comando:
 
 *python –versión*
 
-![](media/412995fcffe0131bc7bb72f9cd7b199b.png)
-
-Para descargar Python para Windows puedes ingresar al siguiente link:
+Para descargar Python puedes ingresar al siguiente link:
 <https://www.python.org/downloads/windows/>
-
-Si realizas la instalación en Windows es importante Agregar Python al PATH.
 
 ![Agregar Python a PATH](media/b079185c66a655baa571d6418d7b7a85.png)
 
-## Instalación pip(Gestor de Paquetes de Python).
+## Instalación pip(Gestor de Paquetes de Python.
 
 Si está utilizando una versión reciente de Python, lo más probable es que el
 administrador de paquetes de Python, pip, esté instalado de forma
-predeterminada.
-
-Puedes verificar si esta instalada con el comando:
-
-*pip –version*
-
-*![](media/d027b2fe63d158e730dac6ccb62e06cb.png)*
-
-Sin embargo, es posible que deba actualizar pip a la última versión:
+predeterminada. Sin embargo, es posible que deba actualizar pip a la última
+versión:
 
 *pip install --upgrade pip*
 
-**(este título vamos a usarlo de ejemplo durante la capacitación en vivo para
-mostrar como copiar un formato de título):**
-
 **Instale el mkdocs usando pip:**
-
-Ejecuta el siguiente comando:
 
 *pip install mkdocs*
 
 **Luego con este comando verificamos que este correctamente instalado:**
 
-*mkdocs –versión*
-
-*![](media/b214e08c7a3279adb4a36ac2d051600b.png)*
+*mkdocs –version*
 
 Para Crear Proyecto, nos ubicamos en el directorio donde se desee crear el
 proyecto y se ejecuta el comando:
@@ -78,25 +60,10 @@ proyecto y se ejecuta el comando:
 
 ## GitHub Desktop
 
-Es una herramienta que brinda una interfaz gráfica para el control de versiones
-con Git.
-
 En este punto necesitamos crear una cuenta en GitHub. En el siguiente enlace:
 
 [Crear Cuenta
 GitHub](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
-
-Una vez creada la cuenta se debe bajar la aplicación GitHub Desktop.
-
-<https://desktop.github.com/>
-
-Según tu sistema operativo.
-
-Una vez instalada la aplicación debes revisar que se ha instalado además de la
-herramienta de administración, el Git que es el software de control de versiones
-para verificar eso se ejecuta el siguiente comando:
-
-*git –versión*
 
 In order to apply code block style from Word a “Source Code” style should be
 created first.

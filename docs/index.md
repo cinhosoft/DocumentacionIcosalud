@@ -134,13 +134,13 @@ Una vez creado nos encontramos con lo siguiente:
 
 2.  Muestra el historial de archivos con cambios.
 
-3.  Se usa para hacer los comit al main.
+3.  Se usa para hacer los commit al main.
 
 4.  Se usará enviar los cambios a GitHub.
 
 Este sería un repaso básico de lo que es GitHub Desktop.
 
-Para aplicar los cambios realizados se hacen los comit, digitando un nombre del
+Para aplicar los cambios realizados se hacen los commit, digitando un nombre del
 cambio y la descripción es opcional:
 
 ![](media/c0c0b7d80f210189f505a8189e7cd17c.png)
@@ -148,7 +148,7 @@ cambio y la descripción es opcional:
 Se da click en Commit to main, para guardar los cambios luego para cargar los
 cambios al proyecto en GitHub debemos publicar el repositorio, los demás cambios
 que se hagan después de la publicación, también se debe repetir el mismo proceso
-hacer el comit y cargar los cambios al repositorio a este segundo paso se le
+hacer el commit y cargar los cambios al repositorio a este segundo paso se le
 llama push.
 
 ![](media/c2af5e08729c5feb20ade258f7cfba52.png)
@@ -290,7 +290,7 @@ tienen un nombre único que le ha asignado el complemento writege.
 ![]: (media/6b54c49b9db0387418e449d9b5552399.png)
 
 1.  El completo writege necesita una licencia, la cual está alrededor de los
-    130.000 COP.
+    130000 COP.
 
 2.  Se debe tener mucho cuidado al momento de digitar en Word, cuando homologa
     caracteres especiales, puede cometer errores como el siguiente causado al
@@ -310,6 +310,16 @@ la herramienta recortadora.
 
 **(por esta razón este documento no tiene caracteres especiales y el signo de
 pesos en el valor de la licencia no fue agregado).**
+
+**Nota:** A continuación, muestro un ejemplo de como se ven los cambios de los
+documentos en GitHub, los cuales para cargarlos realizo el commit:
+
+![](media/35e288e393b583ecdbaad1acdde0744b.png)
+
+Una vez hecho el commit, se me habilita para hace el push en el servidor de
+GitHub:
+
+![](media/e4e0c0c3ff39e346c9ae04db8ba47461.png)
 
 ## Writage-2.6
 

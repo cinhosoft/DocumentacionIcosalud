@@ -10,6 +10,8 @@ Capacitación uso de herramientas de documentación.
 
 -   ReadhTheDocs
 
+-   Writage-2.6
+
 ## MkDocs
 
 MkDocs es un generador de sitios estáticos rápido, simple y francamente
@@ -311,7 +313,7 @@ la herramienta recortadora.
 **(por esta razón este documento no tiene caracteres especiales y el signo de
 pesos en el valor de la licencia no fue agregado).**
 
-**Nota:** A continuación, muestro un ejemplo de como se ven los cambios de los
+**Nota:** A continuación, muestro un ejemplo de cómo se ven los cambios de los
 documentos en GitHub, los cuales para cargarlos realizo el commit:
 
 ![](media/35e288e393b583ecdbaad1acdde0744b.png)
@@ -323,37 +325,18 @@ GitHub:
 
 ## Writage-2.6
 
--   First bulleted item.
+Es de momento la herramienta que encontré para crear archivos de mkdocs
+directamente desde Microsoft Word Office, se puede descargar en el siguiente
+link y dan un periodo de prueba 14 días:
 
--   Second bulleted item.
+<https://www.writage.com/download/>
 
-Lists can be styled via pressing **Bullets** or **Numbering** button or using
-autoformatting: type minus and space for bulleted item or “1”, point and space
-for numbered item.
+Simplemente se instala y se acopla a Word, debemos verificar en que se puede
+guardar como Markdown.
 
-1.  First numbered item.
+![](media/594443ad9eead88a164b49be3d6f6b5a.png)
 
-2.  Second numbered item.
+# Dudas
 
-## Tables
-
-Press **Insert/Table** to create a table of required size, or use pop-up menu to
-add more columns or rows. Here is a sample table.
-
-| **Features** | **Editable in Word** |
-|--------------|----------------------|
-| Basic Styles | Yes                  |
-| Footnotes    | Yes                  |
-| Images       | Yes                  |
-| Tables       | Yes                  |
-
-## 
-
-## Foto
-
-![](media/11beab043d09dd853bbe6ed874682853.png)
-
-# Happy writing!
-
-Got a question? Drop us a line:
-[support@writage.com](mailto:support@writage.com).
+¿Tienes alguna pregunta? Escríbeme:
+[marlongalvis@hotmail.com](mailto:marlongalvis@hotmail.com).

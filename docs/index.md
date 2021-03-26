@@ -1,4 +1,4 @@
-# Bienvenido a ICOSALUD
+# Bienvenido a Capacitación Documentación con ReadTheDocs
 
 Capacitación uso de herramientas de documentación.
 
@@ -76,6 +76,8 @@ proyecto y se ejecuta el comando:
 
 *cd nombre_proyecto*
 
+![](media/0f018dc936ae75e3279386a19295c690.png)
+
 ## GitHub Desktop
 
 Es una herramienta que brinda una interfaz gráfica para el control de versiones
@@ -98,10 +100,175 @@ para verificar eso se ejecuta el siguiente comando:
 
 *git –versión*
 
+![](media/017520f41a96ea277f2501e8bf36aecf.png)
+
+Si todo esta instado correctamente abrimos la aplicación GitHub DeskTop,
+iniciamos sesión con la cuenta creada de GitHub.
+
+Puede pedir que ingresemos a través del navegador:
+
+![](media/f9cdf7ac23a6b999531a873e5d3c876e.png)
+
+Puede pedir directamente los datos de inicio:
+
+![](media/2daf7dc8365bd79876c31666f3280ca6.png)
+
+Una vez se inicie para efectos de continuar con el cargue del proyecto de prueba
+en cada una de nuestras cuentas de GitHub, vamos a crear un repositorio nuevo:
+
+En el Menu File New repository
+
+![](media/8ff22f72360995b3bc29ce65b29d492a.png)
+
+Se digita el nombre, la descripción del proyecto es opcional y verificar el path
+local de la ubicación de nuestros documentos, adicionalmente se puede indicar
+que tipos de archivos del proyecto queremos que ignore Git y el tipo licencia.
+
+![](media/4a08551e3ffce6264aa547bfa54bc3f5.png)
+
+Una vez creado nos encontramos con lo siguiente:
+
+![](media/6e8830e29f27077c68469a0fae8bede2.png)
+
+1.  El directorio en el cual nos encontramos trabajando.
+
+2.  Muestra el historial de archivos con cambios.
+
+3.  Se usa para hacer los comit al main.
+
+4.  Se usará enviar los cambios a GitHub.
+
+Este sería un repaso básico de lo que es GitHub Desktop.
+
+Para aplicar los cambios realizados se hacen los comit, digitando un nombre del
+cambio y la descripción es opcional:
+
+![](media/c0c0b7d80f210189f505a8189e7cd17c.png)
+
+Se da click en Commit to main, para guardar los cambios luego para cargar los
+cambios al proyecto en GitHub debemos publicar el repositorio, los demás cambios
+que se hagan después de la publicación, también se debe repetir el mismo proceso
+hacer el comit y cargar los cambios al repositorio a este segundo paso se le
+llama push.
+
+![](media/c2af5e08729c5feb20ade258f7cfba52.png)
+
+Al publicar por primera vez un proyecto en GitHub nos va pedir que confirmemos
+el nombre y la descripción:
+
+![](media/ab5c63e17acb0c8933a54a61a9864564.png)
+
+Se diligencian y se da click en Publish repository.
+
+**Nota:** En la imagen anterior vemos una opción que nos pregunta si deseamos
+mantener este código privado, esa opción solo esta disponible para quienes
+tienen Suscripción oficial a GitHub, mi cuenta al ser una cuenta educativa tiene
+esta opción.
+
+**Una vez publicado el proyecto ya estamos listos para utilizar ReadTheDocs.**
+
+## ReadTheDocs
+
+Es plataforma de alojamiento de documentación de software libre de código
+abierto. Genera documentación escrita con el generador de documentación Sphinx.
+
+Para facilidad de edición vamos a utilizar el generador MkDocs, del cual hemos
+hablado anteriormente y ya debemos tener instalado.
+
+Para utilizar esta plataforma debemos registrarnos en la página oficial:
+
+<https://readthedocs.org/>
+
+Una vez nos registremos un confirmemos la cuenta se podrá importar el proyecto
+que hemos cargado a GitHub.
+
+Una vez iniciamos sesión en ReadTheDocs, vamos a vincular nuestra cuenta de
+GitHub vamos la fecha del perfil Ajustes:
+
+![](media/013d97481745a02818349878354681f9.png)
+
+Una vez estemos en ajustes vamos a Servicios Conectados y damos click en la
+opción Connect to GitHub
+
+![](media/6b54c49b9db0387418e449d9b5552399.png)
+
+Nos pedirá las credenciales de GitHub y que habilitemos algunos permisos, además
+de eso nos pedirá una confirmación vía correo electrónico.
+
+![](media/7829427f801e10f3ad7e6b1ccc113a50.png)
+
+Una vez se confirme todo correctamente volvemos a ReadTheDocs y esta vez
+ingresamos a la opción del perfil, mis proyectos y le damos click en importar un
+proyecto:
+
+![](media/350d27edbbd294341aaad7c41fcf5590.png)
+
+Una vez se da click en importar un proyecto aparecerá la siguiente ventana con
+los proyectos públicos que tenemso en GitHub
+
+![](media/7063b24ce3f8ebb3bc7ff31493aedb38.png)
+
+**Nota:** En este punto apropósito yo cargue el proyecto del ejemplo como
+privado y como podemos ver no aparecer en ReadTheDocs, esto se debe a que como
+lo explica la descripción solo veremos los repositorios públicos y para trabajar
+con ReadTheDocs de manera privada es necesario pagar una licencia for Business.
+
+Esta implementación dependerá de que tipo de documentación se este
+diligenciando, se recomienda no publicar datos privados de la empresa y
+contraseñas, si se va utilizar ReadTheDocs Sin Membrecía Gold.
+
+Aprovechando el imprevisto vamos a ir a nuestra plataforma de GitHub y aprender
+como modificar el estado de nuestro repositorio de privado a público.
+
+Esto se realiza ingresando a nuestro proyecto en <https://github.com/> en
+Settings Manage Access Se da click Manage.
+
+![](media/588068c9bfc1fab14602b0cf6cd0428c.png)
+
+**Nota:** En este punto podemos no solo configurar el estado del repositorio,
+sino que también, podemos agregar colaboradores al proyecto y es lo que se
+debería realizar en una empresa, donde en un repositorio central se cargan los
+diferentes cambios de cada uno de los integrantes del equipo del proyecto.
+
+Cuando damos click en Manage, nos redireccionara a la siguiente ventana, en la
+Danger Zone, Aquí damos click en Change Visibility:
+
+![](media/0be1730fa17d4e531f2a8ecdfbd44675.png)
+
+Se abrirá la ventana en la cual vamos a seleccionar Make Public, no pedirá una
+confirmación de la ruta del proyecto cinhosoft/nombre_proyecto y damos click en
+el botón confirmando que entendemos que le directorio será de visibilidad
+publica:
+
+![](media/db7ac0958d21e76ba0ba352d3f9f2cda.png)
+
+Una vez Realizados estos cambios volvemos a ReadTheDocs y actualizamos el
+proceso de importar proyecto, dando click en el icono de actualizar:
+
+![](media/763b126317330145f8fe58ae9fbc0512.png)
+
+Una vez actualizamos debería aparecer en la lista el proyecto que acabamos de
+modificar su visibilidad, el cual debemos dar click en el + para importarlo:
+
+![](media/fcbb693a8a203f18a5d891bd8d663273.png)
+
+Cargara unos datos por defecto y le indicaremos que vamos a **editar las
+opciones avanzadas.**
+
+**![](media/f5a97298df7cc8e60a7660c2e9099bfa.png)**
+
+Una vez verifiquemos que si se selecciono el check para editar las opciones
+avanzadas, damos click en siguiente.
+
+En este punto vamos a modificar el tipo de documentación seleccionando Mkdocs,
+el Idioma Español (Spanish) y se da click en Terminar.
+
+![](media/40593f3a4375197ff1b91e32483bab97.png)
+
 In order to apply code block style from Word a “Source Code” style should be
 created first.
 
-## Lists
+## Writage-2.6
 
 -   First bulleted item.
 

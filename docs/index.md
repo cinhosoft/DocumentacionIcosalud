@@ -10,9 +10,6 @@ Capacitación uso de herramientas de documentación.
 
 -   ReadhTheDocs
 
-To apply *emphasis* or **strong emphasis** please select some text and press
-Italic button (use Ctrl+I shortcut) or Bold button (Ctrl+B) in Word. Press again
-to turn it off.
 
 ## MkDocs
 

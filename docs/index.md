@@ -290,14 +290,26 @@ tienen un nombre único que le ha asignado el complemento writege.
 ![]: (media/6b54c49b9db0387418e449d9b5552399.png)
 
 1.  El completo writege necesita una licencia, la cual está alrededor de los
-    \$130.000 COP.
+    130.000 COP.
 
 2.  Se debe tener mucho cuidado al momento de digitar en Word, cuando homologa
     caracteres especiales, puede cometer errores como el siguiente causado al
-    homologar el carácter \$:
+    homologar el carácter (signo pesos, si digito aquí me generaría el siguiente
+    error):
 
-In order to apply code block style from Word a “Source Code” style should be
-created first.
+![](media/37dd980f536685100321d2965a98f365.png)
+
+Ese problema es generado por utilizar caracteres UTF-8 que el writage
+aparentemente no homologa bien, al compilar nos saldrá lo siguiente:
+
+![](media/12cd154ad9af5e571c207f3f71ff8a37.png)
+
+Personalmente pienso que es una pequeña desventaja en comparado con la ayuda de
+homologar texto, viñetas y cargar las imágenes directamente solo pegándolas de
+la herramienta recortadora.
+
+**(por esta razón este documento no tiene caracteres especiales y el signo de
+pesos en el valor de la licencia no fue agregado).**
 
 ## Writage-2.6
 
